@@ -3,232 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sources - Historical & Geopolitical Analysis</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css">
-    <style>
-        body { 
-            max-width: 900px; 
-            margin: 0 auto; 
-            padding: 2rem; 
-            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-        }
-        header { 
-            text-align: center; 
-            margin-bottom: 3rem; 
-            border-bottom: 1px solid #444; 
-            padding-bottom: 2rem;
-        }
-        .logo { 
-            max-height: 80px; 
-            margin-bottom: 1rem;
-        }
-        .video-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 2rem;
-            margin-bottom: 3rem;
-        }
-        .video-card {
-            background: #1a1a1a;
-            border-radius: 12px;
-            padding: 1.5rem;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
-        .video-card:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 8px 30px rgba(0,0,0,0.5);
-        }
-        .thumbnail {
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
-            border-radius: 8px;
-            margin-bottom: 1rem;
-        }
-        .video-title {
-            font-size: 1.2rem;
-            font-weight: 600;
-            margin: 0 0 0.5rem 0;
-            color: #fff;
-        }
-        .sources-link {
-            display: inline-block;
-            background: #0066cc;
-            color: white;
-            padding: 0.5rem 1rem;
-            text-decoration: none;
-            border-radius: 6px;
-            font-size: 0.9rem;
-            transition: background 0.2s;
-        }
-        .sources-link:hover {
-            background: #0052a3;
-        }
-        .stats {
-            font-size: 0.85rem;
-            color: #aaa;
-            margin-top: 1rem;
-        }
-        footer {
-            text-align: center;
-            padding: 2rem 0;
-            color: #888;
-            border-top: 1px solid #444;
-        }
-    </style>
+    <title>Sources – fuel</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <a href="index.html">
-            <img src="assets/logo.png" alt="Channel Logo" class="logo">
+<header class="site-header">
+    <a href="index.html"><img src="assets/logo.png" alt="fuel" class="logo"></a>
+    <p class="tagline">Sources &amp; References</p>
+</header>
+<main class="page">
+    <div class="video-list">
+
+        <a class="video-card" href="sources/2026-04-26-how-oligarchs-rule-the-world.html">
+            <img src="assets/thumbnails/oligarchs2-thumb.png" alt="" class="card-thumb" onerror="this.outerHTML='<div class=card-thumb-placeholder>no thumbnail</div>'">
+            <div class="card-body">
+                <div><h2 class="card-title">How Oligarchs Rule the World</h2><p class="card-desc">China's billionaire crackdown, the global minimum tax, and the fight to rein in oligarchic power</p></div>
+                <div class="card-meta"><span class="card-date">Apr 26, 2026</span><span class="card-sources">36 sources</span><span class="card-duration">15 min</span></div>
+            </div>
         </a>
-        <h1>Sources</h1>
-        <p>Full citations for fuel's videos</p>
-    </header>
-    
-    <main>
-        <div class="video-grid">
 
-            <!-- Oligarchs Part 2 Video -->
-            <div class="video-card">
-                <img src="assets/thumbnails/oligarchs2-thumb.png" alt="Oligarchs Rule thumbnail" class="thumbnail">
-                <h2 class="video-title">How Oligarchs Rule the World</h2>
-                <p>China's billionaire crackdown, the global minimum tax, and the fight to rein in oligarchic power</p>
-                <a href="sources/2026-04-26-how-oligarchs-rule-the-world.html" class="sources-link">
-                     View Sources (36 sources)
-                </a>
-                <div class="stats">
-                    Published Apr 26, 2026 • 15 min
-                </div>
+        <a class="video-card" href="sources/2026-04-15-how-oligarchs-took-over-the-world.html">
+            <img src="assets/thumbnails/oligarchs-thumb.png" alt="" class="card-thumb" onerror="this.outerHTML='<div class=card-thumb-placeholder>no thumbnail</div>'">
+            <div class="card-body">
+                <div><h2 class="card-title">How Oligarchs Took Over the World</h2><p class="card-desc">From Russian privatisation to Silicon Valley — how billionaires captured political power</p></div>
+                <div class="card-meta"><span class="card-date">Apr 15, 2026</span><span class="card-sources">37 sources</span><span class="card-duration">15 min</span></div>
             </div>
-            
-            <!-- Oligarchs Video -->
-            <div class="video-card">
-                <img src="assets/thumbnails/oligarchs-thumb.png" alt="Oligarchs thumbnail" class="thumbnail">
-                <h2 class="video-title">How Oligarchs Took Over the World</h2>
-                <p>From Russian privatisation to Silicon Valley — how billionaires captured political power</p>
-                <a href="sources/2026-04-15-how-oligarchs-took-over-the-world.html" class="sources-link">
-                     View Sources (37 sources)
-                </a>
-                <div class="stats">
-                    Published Apr 15, 2026 • 15 min
-                </div>
-            </div>
-            
-            <!-- Iran Video -->
-            <div class="video-card">
-                <img src="assets/thumbnails/iran-thumb.png" alt="Iranian Revolution thumbnail" class="thumbnail">
-                <h2 class="video-title">The Revolution that Transformed the Middle East</h2>
-                <p>The Iranian Revolution of 1979 and the birth of the Islamic Republic</p>
-                <a href="sources/2026-03-30-the-revolution-that-transformed-the-middle-east.html" class="sources-link"> 
-                     View Sources (9 sources)
-                </a>
-                <div class="stats">
-                    Published Mar 30, 2026 • 18 min
-                </div>
-            </div>
-            
-            <!-- Stasi Video -->
-            <div class="video-card">
-                <img src="assets/thumbnails/stasi-thumb.jpg" alt="Stasi thumbnail" class="thumbnail">
-                <h2 class="video-title">The Most Brutal Secret Police Ever</h2>
-                <p>The Stasi, East Germany's surveillance state, and the tactics that terrorised a nation</p>
-                <a href="sources/2026-03-11-the-most-brutal-secret-police-ever.html" class="sources-link">
-                     View Sources (14 sources)
-                </a>
-                <div class="stats">
-                    Published Mar 11, 2026 • 18 min
-                </div>
-            </div>
-            
-            <!-- Korea Video -->
-            <div class="video-card">
-                <img src="assets/thumbnails/korea-thumb.jpg" alt="Korea thumbnail" class="thumbnail">
-                <h2 class="video-title">The Secret Society That Overthrew Korea's President</h2>
-                <p>October 26, 1979: Park Chung-hee's assassination and the Hanahoe coup</p>
-                <a href="sources/2026-03-01-the-secret-society-that-overthrew-koreas-president.html" class="sources-link">
-                     View Sources (19 sources)
-                </a>
-                <div class="stats">
-                    Published Mar 1, 2026 • 18 min
-                </div>
-            </div>
+        </a>
 
-            <!-- Chile Video -->
-            <div class="video-card">
-                <img src="assets/thumbnails/chile-thumb.jpg" alt="Chile Coup thumbnail" class="thumbnail">
-                <h2 class="video-title">The Military Coup That Broke Chile</h2>
-                <p>September 11, 1973: The fall of Allende, and the rise of Pinochet</p>
-                <a href="sources/2026-02-the-military-coup-that-broke-chile.html" class="sources-link">
-                     View Sources (16 sources)
-                </a>
-                <div class="stats">
-                    Published Feb 19 2026 • 20 min
-                </div>
+        <a class="video-card" href="sources/2026-03-30-the-revolution-that-transformed-the-middle-east.html">
+            <img src="assets/thumbnails/iran-thumb.png" alt="" class="card-thumb" onerror="this.outerHTML='<div class=card-thumb-placeholder>no thumbnail</div>'">
+            <div class="card-body">
+                <div><h2 class="card-title">The Revolution that Transformed Iran</h2><p class="card-desc">The Iranian Revolution of 1979 and the birth of the Islamic Republic</p></div>
+                <div class="card-meta"><span class="card-date">Mar 30, 2026</span><span class="card-sources">9 sources</span><span class="card-duration">18 min</span></div>
             </div>
+        </a>
 
-            <!-- Georgia Video --> 
-            <div class="video-card">
-                <img src="assets/thumbnails/georgia-thumb.png" alt="Georgia Coup thumbnail" class="thumbnail">
-                <h2 class="video-title">When Georgia Had a Violent Coup</h2>
-                <p>Zviad Gamsakhurdia and the civil war that followed</p>
-                <a href="sources/2026-02-when-georgia-had-a-violent-coup.html" class="sources-link">
-                     View Sources (18 sources)
-                </a>
-                <div class="stats">
-                    Published Feb 4 2026 • 16 min
-                </div>
+        <a class="video-card" href="sources/2026-03-11-the-most-brutal-secret-police-ever.html">
+            <img src="assets/thumbnails/stasi-thumb.jpg" alt="" class="card-thumb" onerror="this.outerHTML='<div class=card-thumb-placeholder>no thumbnail</div>'">
+            <div class="card-body">
+                <div><h2 class="card-title">The Secret Police That Spied on Everyone</h2><p class="card-desc">The Stasi, East Germany's surveillance state, and the tactics that terrorised a nation</p></div>
+                <div class="card-meta"><span class="card-date">Mar 11, 2026</span><span class="card-sources">14 sources</span><span class="card-duration">18 min</span></div>
             </div>
+        </a>
 
-              <!-- Romania Video --> 
-            <div class="video-card">
-            <img src="assets/thumbnails/romania-thumb.png" alt="Romania Revolution thumbnail" class="thumbnail">
-            <h2 class="video-title">The Revolution That Ended Communist Romania</h2>
-            <p>Ceaușescu's fall, Timișoara uprising, and bloody revolution</p>
-            <a href="sources/2026-01-the-revolution-that-ended-communist-romania.html" class="sources-link">
-                 View Sources (21 sources)
-            </a>
-            <div class="stats">
-                Published Jan 14, 2026 • 15 min
+        <a class="video-card" href="sources/2026-03-01-the-secret-society-that-overthrew-koreas-president.html">
+            <img src="assets/thumbnails/korea-thumb.jpg" alt="" class="card-thumb" onerror="this.outerHTML='<div class=card-thumb-placeholder>no thumbnail</div>'">
+            <div class="card-body">
+                <div><h2 class="card-title">When a Secret Organization Overthrew Korea's President</h2><p class="card-desc">October 26, 1979: Park Chung-hee's assassination and the Hanahoe coup</p></div>
+                <div class="card-meta"><span class="card-date">Mar 1, 2026</span><span class="card-sources">19 sources</span><span class="card-duration">18 min</span></div>
             </div>
-        </div>
+        </a>
 
-            <!-- Russia Video -->
-            <div class="video-card">
-                <img src="assets/thumbnails/russia-thumb.png" alt="Russia Coup thumbnail" class="thumbnail">
-                <h2 class="video-title">The Coup That Almost Ended Russia</h2>
-                <p>October 1993: Yeltsin, the constitutional crisis, and Moscow's street battles</p>
-                <a href="sources/2025-12-the-coup-that-almost-ended-russia.html" class="sources-link">
-                     View Sources (7 sources)
-                </a>
-                <div class="stats">
-                    Published Dec 25 2025 • 15 min
-                </div>
+        <a class="video-card" href="sources/2026-02-the-military-coup-that-broke-chile.html">
+            <img src="assets/thumbnails/chile-thumb.jpg" alt="" class="card-thumb" onerror="this.outerHTML='<div class=card-thumb-placeholder>no thumbnail</div>'">
+            <div class="card-body">
+                <div><h2 class="card-title">The Military Coup That Broke Chile</h2><p class="card-desc">September 11, 1973: The fall of Allende, and the rise of Pinochet</p></div>
+                <div class="card-meta"><span class="card-date">Feb 19, 2026</span><span class="card-sources">16 sources</span><span class="card-duration">20 min</span></div>
             </div>
+        </a>
 
-            <!-- China Video -->
-            <div class="video-card">
-                <img src="assets/thumbnails/china-thumb.jpg" alt="China Purge thumbnail" class="thumbnail">
-                <h2 class="video-title">When China Had a Public Purge</h2>
-                <p>The Gang of Four trial and the spectacle of revolutionary justice</p>
-                <a href="sources/2025-11-when-china-had-a-public-purge.html" class="sources-link">
-                     View Sources (5 sources)
-                </a>
-                <div class="stats">
-                    Published Nov 20 2025 • 15 min
-                </div>
+        <a class="video-card" href="sources/2026-02-when-georgia-had-a-violent-coup.html">
+            <img src="assets/thumbnails/georgia-thumb.png" alt="" class="card-thumb" onerror="this.outerHTML='<div class=card-thumb-placeholder>no thumbnail</div>'">
+            <div class="card-body">
+                <div><h2 class="card-title">When Georgia Had a Violent Coup</h2><p class="card-desc">Zviad Gamsakhurdia and the civil war that followed Georgian independence</p></div>
+                <div class="card-meta"><span class="card-date">Feb 4, 2026</span><span class="card-sources">18 sources</span><span class="card-duration">16 min</span></div>
             </div>
+        </a>
 
+        <a class="video-card" href="sources/2026-01-the-revolution-that-ended-communist-romania.html">
+            <img src="assets/thumbnails/romania-thumb.png" alt="" class="card-thumb" onerror="this.outerHTML='<div class=card-thumb-placeholder>no thumbnail</div>'">
+            <div class="card-body">
+                <div><h2 class="card-title">The Revolution That Ended Communist Romania</h2><p class="card-desc">Ceaușescu's fall, the Timișoara uprising, and the bloody revolution of 1989</p></div>
+                <div class="card-meta"><span class="card-date">Jan 14, 2026</span><span class="card-sources">21 sources</span><span class="card-duration">15 min</span></div>
+            </div>
+        </a>
 
-            <!-- Add more video cards here as you publish -->
-            
-        </div>
-    </main>
+        <a class="video-card" href="sources/2025-12-the-coup-that-almost-ended-russia.html">
+            <img src="assets/thumbnails/russia-thumb.png" alt="" class="card-thumb" onerror="this.outerHTML='<div class=card-thumb-placeholder>no thumbnail</div>'">
+            <div class="card-body">
+                <div><h2 class="card-title">The Coup That Almost Ended Russia</h2><p class="card-desc">October 1993: Yeltsin, the constitutional crisis, and Moscow's street battles</p></div>
+                <div class="card-meta"><span class="card-date">Dec 25, 2025</span><span class="card-sources">7 sources</span><span class="card-duration">15 min</span></div>
+            </div>
+        </a>
 
-    <footer>
-        <p>© 2026 fuel | <a href="mailto:fuelfyt@proton.me">Contact</a> | 
-        <a href="https://youtube.com/@fuelforyourthoughts">YouTube</a></p>
-    </footer>
+        <a class="video-card" href="sources/2025-11-when-china-had-a-public-purge.html">
+            <img src="assets/thumbnails/china-thumb.jpg" alt="" class="card-thumb" onerror="this.outerHTML='<div class=card-thumb-placeholder>no thumbnail</div>'">
+            <div class="card-body">
+                <div><h2 class="card-title">When China Had a Public Purge</h2><p class="card-desc">The Gang of Four trial and the spectacle of revolutionary justice</p></div>
+                <div class="card-meta"><span class="card-date">Nov 20, 2025</span><span class="card-sources">5 sources</span><span class="card-duration">15 min</span></div>
+            </div>
+        </a>
+
+    </div>
+</main>
+<footer class="site-footer">
+    <p>© 2026 fuel &nbsp;·&nbsp; <a href="mailto:fuelfyt@proton.me">fuelfyt@proton.me</a> &nbsp;·&nbsp; <a href="https://youtube.com/@fuelforyourthoughts">YouTube</a></p>
+</footer>
 </body>
 </html>
